@@ -1,12 +1,10 @@
 # calculator-app
 
-Prerequisite
-1) Must be Windows machine
-2) .netFramework 4.6.2
+This project is bulit using C# and WPF.
 
-Installation
-1) Copy executable files to Windows based machine
-2) Double click the calculator-app.exe
+Prerequisite
+1) Must be a Windows machine
+2) .netFramework 4.6.2
 
 Problems
 1) Unhandled exception for large values
