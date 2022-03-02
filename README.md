@@ -6,6 +6,10 @@ Prerequisite
 1) Must be a Windows machine
 2) .netFramework 4.6.2
 
+Installation
+1) download the executable
+2) Double click the calculator-app.exe
+
 Problems
 1) Unhandled exception for large values
 
