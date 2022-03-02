@@ -1,0 +1,24 @@
+﻿<Window x:Class="calculator_app.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:calculator_app"
+        mc:Ignorable="d"
+        Title="Calculator" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <local:ucAppHeader x:Name="ucAppHeader1" Grid.ColumnSpan="2" Visibility="Hidden"></local:ucAppHeader>
+        <local:ucLogin x:Name="ucLogin1" Grid.ColumnSpan="2" Grid.RowSpan="2"></local:ucLogin>
+        <local:ucRegister x:Name="ucRegister1" Grid.ColumnSpan="2" Visibility="Hidden" Grid.RowSpan="2"></local:ucRegister>
+        <local:ucCalculator x:Name="ucCalculator1" Visibility="Hidden" Grid.Row="1"></local:ucCalculator>
+        <local:ucCalculatorMemory x:Name="ucCalculatorMemory1" Visibility="Hidden" Grid.Row="1" Grid.Column="1"></local:ucCalculatorMemory>
+    </Grid>
+</Window>
